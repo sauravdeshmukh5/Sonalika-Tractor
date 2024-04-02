@@ -299,7 +299,7 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    /* background-image: url(../images/banner-bg.png);? */
     height: auto;
     background-size: 100%;
     padding: 200px 0px 160px 0px;
@@ -362,7 +362,7 @@ button {
     width: 100%;
     float: left;
     text-align: center;
-    display: none;
+    /* display: none; */
 }
 
 #banner_slider a.carousel-control-prev {
