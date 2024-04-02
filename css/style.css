@@ -1114,3 +1114,17 @@ textarea#comment::placeholder {
 .margin_top90 {
     margin-top: 90px;
 }
+
+.map_section {
+    height: 400px;
+  }
+  
+  .map_section .map_container {
+    height: 100%;
+  }
+  
+  .map_section .map_container .map-responsive {
+    height: 100%;
+  }
+
+  
