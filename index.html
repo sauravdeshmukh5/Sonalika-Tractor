@@ -26,6 +26,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
     <!-- Tweaks for older IEs-->
@@ -33,6 +34,10 @@
       rel="stylesheet"
       href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
     />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
   </head>
   <body>
     <!-- header section start -->
@@ -220,9 +225,7 @@
     </div>
     <!-- about section end -->
     <div class="search_section">
-      <div class="container">
-        
-      </div>
+      <div class="container"></div>
     </div>
     <!-- gallery section start -->
     <div class="gallery_section layout_padding">
@@ -236,7 +239,9 @@
           <div class="row">
             <div class="col-md-4">
               <div class="gallery_box">
-                <div class="gallery_img"><img src="images/dlx_xi_60.webp" /></div>
+                <div class="gallery_img">
+                  <img src="images/dlx_xi_60.webp" />
+                </div>
                 <h3 class="types_text">SONALIKA DI 60 SIKANDER</h3>
                 <p class="looking_text">Contact Us</p>
                 <div class="read_bt"><a href="#">Get Price</a></div>
@@ -244,7 +249,9 @@
             </div>
             <div class="col-md-4">
               <div class="gallery_box">
-                <div class="gallery_img"><img src="images/tiger-75.webp" /></div>
+                <div class="gallery_img">
+                  <img src="images/tiger-75.webp" />
+                </div>
                 <h3 class="types_text">SONALIKA TIGER DI 75 CRDS</h3>
                 <p class="looking_text">Contact Us</p>
                 <div class="read_bt"><a href="#">Get Price</a></div>
@@ -252,7 +259,9 @@
             </div>
             <div class="col-md-4">
               <div class="gallery_box">
-                <div class="gallery_img"><img src="images/tiger-65.webp" /></div>
+                <div class="gallery_img">
+                  <img src="images/tiger-65.webp" />
+                </div>
                 <h3 class="types_text">SONALIKA TIGER DI 65 CRDS</h3>
                 <p class="looking_text">Contact Us</p>
                 <div class="read_bt"><a href="#">Get Price</a></div>
@@ -264,7 +273,9 @@
           <div class="row">
             <div class="col-md-4">
               <div class="gallery_box">
-                <div class="gallery_img"><img src="images/dlx-750-iii.webp" /></div>
+                <div class="gallery_img">
+                  <img src="images/dlx-750-iii.webp" />
+                </div>
                 <h3 class="types_text">SONALIKA DI 750 III</h3>
                 <p class="looking_text">Contact Us</p>
                 <div class="read_bt"><a href="#">Get Price</a></div>
@@ -280,7 +291,9 @@
             </div>
             <div class="col-md-4">
               <div class="gallery_box">
-                <div class="gallery_img"><img src="images/tiger-47.webp" /></div>
+                <div class="gallery_img">
+                  <img src="images/tiger-47.webp" />
+                </div>
                 <h3 class="types_text">SONALIKA TIGER DI 47</h3>
                 <p class="looking_text">Contact Us</p>
                 <div class="read_bt"><a href="#">Get Price</a></div>
@@ -289,60 +302,72 @@
           </div>
         </div>
         <div class="gallery_section_2">
-         <div class="row">
+          <div class="row">
             <div class="col-md-4">
-               <div class="gallery_box">
-                 <div class="gallery_img"><img src="images/tiger-50-ss.webp" /></div>
-                 <h3 class="types_text">SONALIKA TIGER DI 50</h3>
-                 <p class="looking_text">Contact Us</p>
-                 <div class="read_bt"><a href="#">Get Price</a></div>
-               </div>
-             </div>
-             <div class="col-md-4">
-               <div class="gallery_box">
-                 <div class="gallery_img"><img src="images/rx-47-sikander.webp" /></div>
-                 <h3 class="types_text">SONALIKA RX 47</h3>
-                 <p class="looking_text">Contact Us</p>
-                 <div class="read_bt"><a href="#">Get Price</a></div>
-               </div>
-             </div>
-             <div class="col-md-4">
-               <div class="gallery_box">
-                 <div class="gallery_img"><img src="images/chhatrapati-di-745-iii.webp" /></div>
-                 <h3 class="types_text">SONALIKA CHHATRAPATI DI</h3>
-                 <p class="looking_text">Contact Us</p>
-                 <div class="read_bt"><a href="#">Get Price</a></div>
-               </div>
-             </div>
-         </div>
+              <div class="gallery_box">
+                <div class="gallery_img">
+                  <img src="images/tiger-50-ss.webp" />
+                </div>
+                <h3 class="types_text">SONALIKA TIGER DI 50</h3>
+                <p class="looking_text">Contact Us</p>
+                <div class="read_bt"><a href="#">Get Price</a></div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="gallery_box">
+                <div class="gallery_img">
+                  <img src="images/rx-47-sikander.webp" />
+                </div>
+                <h3 class="types_text">SONALIKA RX 47</h3>
+                <p class="looking_text">Contact Us</p>
+                <div class="read_bt"><a href="#">Get Price</a></div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="gallery_box">
+                <div class="gallery_img">
+                  <img src="images/chhatrapati-di-745-iii.webp" />
+                </div>
+                <h3 class="types_text">SONALIKA CHHATRAPATI DI</h3>
+                <p class="looking_text">Contact Us</p>
+                <div class="read_bt"><a href="#">Get Price</a></div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="gallery_section_2">
-         <div class="row">
+          <div class="row">
             <div class="col-md-4">
-               <div class="gallery_box">
-                 <div class="gallery_img"><img src="images/tiger-75-4wd.webp" /></div>
-                 <h3 class="types_text">SONALIKA TIGER DI 50</h3>
-                 <p class="looking_text">Contact Us</p>
-                 <div class="read_bt"><a href="#">Get Price</a></div>
-               </div>
-             </div>
-             <div class="col-md-4">
-               <div class="gallery_box">
-                 <div class="gallery_img"><img src="images/tiger-crds-di-65-4wd.png" /></div>
-                 <h3 class="types_text">SONALIKA TIGER DI 65 4WD</h3>
-                 <p class="looking_text">Contact Us</p>
-                 <div class="read_bt"><a href="#">Get Price</a></div>
-               </div>
-             </div>
-             <div class="col-md-4">
-               <div class="gallery_box">
-                 <div class="gallery_img"><img src="images/tiger-di-55-4wd.webp" /></div>
-                 <h3 class="types_text">SONALIKA TIGER DI 55 4WD</h3>
-                 <p class="looking_text">Contact Us</p>
-                 <div class="read_bt"><a href="#">Get Price</a></div>
-               </div>
-             </div>
-         </div>
+              <div class="gallery_box">
+                <div class="gallery_img">
+                  <img src="images/tiger-75-4wd.webp" />
+                </div>
+                <h3 class="types_text">SONALIKA TIGER DI 50</h3>
+                <p class="looking_text">Contact Us</p>
+                <div class="read_bt"><a href="#">Get Price</a></div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="gallery_box">
+                <div class="gallery_img">
+                  <img src="images/tiger-crds-di-65-4wd.png" />
+                </div>
+                <h3 class="types_text">SONALIKA TIGER DI 65 4WD</h3>
+                <p class="looking_text">Contact Us</p>
+                <div class="read_bt"><a href="#">Get Price</a></div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="gallery_box">
+                <div class="gallery_img">
+                  <img src="images/tiger-di-55-4wd.webp" />
+                </div>
+                <h3 class="types_text">SONALIKA TIGER DI 55 4WD</h3>
+                <p class="looking_text">Contact Us</p>
+                <div class="read_bt"><a href="#">Get Price</a></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -535,111 +560,241 @@
       </div>
     </div>
     <!-- Contact Us -->
-      <div class="contact_section layout_padding">
-        <div class="container">
-           <div class="row">
-              <div class="col-sm-12">
-                 <h1 class="contact_taital">Get In Touch</h1>
-              </div>
-           </div>
-        </div>
-        <div class="container">
-           <div class="contact_section_2">
-              <div class="row">
-                 <div class="col-md-12">
-                    <div class="mail_section_1">
-                       <input type="text" class="mail_text" placeholder="Name" name="Name">
-                       <input type="text" class="mail_text" placeholder="Email" name="Email">
-                       <input type="text" class="mail_text" placeholder="Phone Number" name="Phone Number">
-                       <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-                       <div class="send_bt"><a href="#">Send</a></div>
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </div>
-     </div>
-
-    
-   <!-- Footer -->
-    <div class="footer_section layout_padding">
+    <div class="contact_section layout_padding">
       <div class="container">
-         <div class="row">
-            <div class="col-md-12">
-               <div class="footeer_logo"><img src="images/logo.png"></div>
-            </div>
-         </div>
-         <div class="footer_section_2">
-            <div class="row">
-               <div class="col">
-                  <h4 class="footer_taital">Subscribe Now</h4>
-                  <p class="footer_text">There are many variations of passages of Lorem Ipsum available,</p>
-                  <div class="form-group">
-                     <textarea class="update_mail" placeholder="Enter Your Email" rows="5" id="comment" name="Enter Your Email"></textarea>
-                     <div class="subscribe_bt"><a href="#">Subscribe</a></div>
-                  </div>
-               </div>
-               <div class="col">
-                  <h4 class="footer_taital">Information</h4>
-                  <p class="lorem_text">There are many variations of passages of Lorem Ipsum available, but the majority </p>
-               </div>
-               <div class="col">
-                  <h4 class="footer_taital">Helpful Links</h4>
-                  <p class="lorem_text">There are many variations of passages of Lorem Ipsum available, but the majority </p>
-               </div>
-               <div class="col">
-                  <h4 class="footer_taital">Invesments</h4>
-                  <p class="lorem_text">There are many variations of passages of Lorem Ipsum available, but the majority </p>
-               </div>
-               <div class="col">
-                  <h4 class="footer_taital">Contact Us</h4>
-                  <div class="location_text"><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left_15">Location</span></a></div>
-                  <div class="location_text"><a href="#"><i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_15">(+71) 8522369417</span></a></div>
-                  <div class="location_text"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_15">demo@gmail.com</span></a></div>
-                  <div class="social_icon">
-                     <ul>
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="contact_taital">Get In Touch</h1>
+          </div>
+        </div>
       </div>
-   </div>
-   <!-- Map Location-->
-    
-   <section class="map_section">
-    <div class="map_container">
-      <div class="map-responsive">
-        <!-- <iframe src="https://maps.app.goo.gl/wve8UfsMMj1nkmRp6" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe> -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.360647173548!2d75.97334121000752!3d19.526124237613004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdaef7b21067db7%3A0xd51d849879baf47c!2sShri%20Swami%20Samarth%2C%20Petrol%20pump!5e0!3m2!1sen!2sin!4v1712042239419!5m2!1sen!2sin" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen="" loading="lazy"></iframe>
+      <div class="container">
+        <div class="contact_section_2">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mail_section_1">
+                <form action="" id="contact_us">
+                  <input
+                    type="text"
+                    class="mail_text"
+                    required
+                    id="name"
+                    placeholder="Name"
+                    name="Name"
+                  />
+                  <input
+                    type="email"
+                    class="mail_text"
+                    required
+                    id="email"
+                    placeholder="Email"
+                    name="Email"
+                  />
+                  <input
+                    type="number"
+                   
+                    class="mail_text"
+                    required
+                    id="phone"
+                    placeholder="Phone Number"
+                    name="Phone Number"
+                  />
+                  <textarea
+                    class="massage-bt"
+                    placeholder="Comment"
+                    rows="5"
+                    id="comment"
+                    name="Comment"
+                  ></textarea>
+                  <button class="send_bt" type="submit" onclick="sendMail()">Send</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- end map section -->
-  </section>
-   <!-- footer section end -->
-   <!-- copyright section start -->
-   <div class="copyright_section">
+
+    <!-- Footer -->
+    <div class="footer_section layout_padding">
       <div class="container">
-         <div class="row">
-            <div class="col-sm-12">
-               <p class="copyright_text">2023 All Rights Reserved. Design by <a href="https://html.design">Free Html Templates</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a></p>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footeer_logo"><img src="images/logo.png" /></div>
+          </div>
+        </div>
+        <div class="footer_section_2">
+          <div class="row">
+            <div class="col">
+              <h4 class="footer_taital">Subscribe Now</h4>
+              <p class="footer_text">
+                There are many variations of passages of Lorem Ipsum available,
+              </p>
+              <div class="form-group">
+                <textarea
+                  class="update_mail"
+                  placeholder="Enter Your Email"
+                  rows="5"
+                  id="comment"
+                  name="Enter Your Email"
+                ></textarea>
+                <div class="subscribe_bt"><a href="#">Subscribe</a></div>
+              </div>
             </div>
-         </div>
+            <div class="col">
+              <h4 class="footer_taital">Information</h4>
+              <p class="lorem_text">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority
+              </p>
+            </div>
+            <div class="col">
+              <h4 class="footer_taital">Helpful Links</h4>
+              <p class="lorem_text">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority
+              </p>
+            </div>
+            <div class="col">
+              <h4 class="footer_taital">Invesments</h4>
+              <p class="lorem_text">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority
+              </p>
+            </div>
+            <div class="col">
+              <h4 class="footer_taital">Contact Us</h4>
+              <div class="location_text">
+                <a href="#"
+                  ><i class="fa fa-map-marker" aria-hidden="true"></i
+                  ><span class="padding_left_15">Location</span></a
+                >
+              </div>
+              <div class="location_text">
+                <a href="#"
+                  ><i class="fa fa-phone" aria-hidden="true"></i
+                  ><span class="padding_left_15">(+71) 8522369417</span></a
+                >
+              </div>
+              <div class="location_text">
+                <a href="#"
+                  ><i class="fa fa-envelope" aria-hidden="true"></i
+                  ><span class="padding_left_15">demo@gmail.com</span></a
+                >
+              </div>
+              <div class="social_icon">
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-facebook" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-twitter" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-linkedin" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-instagram" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-   </div>
-      <!-- copyright section end -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-   </body>
+    </div>
+    <!-- Map Location-->
+
+    <section class="map_section">
+      <div class="map_container">
+        <div class="map-responsive">
+          <!-- <iframe src="https://maps.app.goo.gl/wve8UfsMMj1nkmRp6" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe> -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.360647173548!2d75.97334121000752!3d19.526124237613004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdaef7b21067db7%3A0xd51d849879baf47c!2sShri%20Swami%20Samarth%2C%20Petrol%20pump!5e0!3m2!1sen!2sin!4v1712042239419!5m2!1sen!2sin"
+            width="600"
+            height="300"
+            frameborder="0"
+            style="border: 0; width: 100%; height: 100%"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+      <!-- end map section -->
+    </section>
+    <!-- footer section end -->
+    <!-- copyright section start -->
+    <div class="copyright_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="copyright_text">
+              2023 All Rights Reserved. Design by
+              <a href="https://html.design">Free Html Templates</a> Distributed
+              By <a href="https://themewagon.com">ThemeWagon</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- copyright section end -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!-- <script type="text/javascript">
+         let loginForm = document.getElementById("contact_us");
+         loginForm.addEventListener('submit',(e)=>{
+            e.preventDefault();
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let phone = document.getElementById("phone").value;
+            let comment = document.getElementById("comment").value;
+            if(name == '' ){
+               alert('please enter a name')
+               console.log("error")
+
+            }
+
+         })
+
+          function sendMail() {
+        (function () {
+          emailjs.init("VQPx03IFGppcXm1G0"); // Account Public Key
+        })();
+        var params = {
+          sendername: document.getElementById("name").value,
+          to: "sauravdeshmukh5@gmail.com",
+          subject: document.getElementById("phone").value,
+          replyto: "ajayshirke137@gmail.com",
+          message: document.getElementById("comment").value,
+        };
+        var serviceID = "service_17z5uhq"; // Email Service ID
+        var templateID = "template_2phyek8"; // Email Template ID
+        emailjs
+          .send(serviceID, templateID, params)
+          .then((res) => {
+            alert("Success");
+          })
+          .catch((err) => console.log(err));
+      }
+        
+      </script> -->
+
+   
+  </body>
 </html>
