@@ -40,6 +40,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -53,6 +54,10 @@
       rel="stylesheet"
       href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
     />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
   </head>
   <body>
     <!-- header section start -->
@@ -1436,32 +1441,41 @@
           <div class="row">
             <div class="col-md-12">
               <div class="mail_section_1">
-                <input
-                  type="text"
-                  class="mail_text"
-                  placeholder="Name"
-                  name="Name"
-                />
-                <input
-                  type="text"
-                  class="mail_text"
-                  placeholder="Email"
-                  name="Email"
-                />
-                <input
-                  type="text"
-                  class="mail_text"
-                  placeholder="Phone Number"
-                  name="Phone Number"
-                />
-                <textarea
-                  class="massage-bt"
-                  placeholder="Massage"
-                  rows="5"
-                  id="comment"
-                  name="Massage"
-                ></textarea>
-                <div class="send_bt"><a href="#">Send</a></div>
+                <form action="" id="contact_us">
+                  <input
+                    type="text"
+                    class="mail_text"
+                    required
+                    id="name"
+                    placeholder="Name"
+                    name="Name"
+                  />
+                  <input
+                    type="email"
+                    class="mail_text"
+                    required
+                    id="email"
+                    placeholder="Email"
+                    name="Email"
+                  />
+                  <input
+                    type="number"
+                   
+                    class="mail_text"
+                    required
+                    id="phone"
+                    placeholder="Phone Number"
+                    name="Phone Number"
+                  />
+                  <textarea
+                    class="massage-bt"
+                    placeholder="Comment"
+                    rows="5"
+                    id="comment"
+                    name="Comment"
+                  ></textarea>
+                  <button class="send_bt" type="submit" onclick="sendMail()">Send</button>
+                </form>
               </div>
             </div>
           </div>
@@ -1600,5 +1614,46 @@
     <!-- sidebar -->
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/custom.js"></script>
+
+    <!-- <script type="text/javascript">
+         let loginForm = document.getElementById("contact_us");
+         loginForm.addEventListener('submit',(e)=>{
+            e.preventDefault();
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let phone = document.getElementById("phone").value;
+            let comment = document.getElementById("comment").value;
+            if(name == '' ){
+               alert('please enter a name')
+               console.log("error")
+
+            }
+
+         })
+
+          function sendMail() {
+        (function () {
+          emailjs.init("VQPx03IFGppcXm1G0"); // Account Public Key
+        })();
+        var params = {
+          sendername: document.getElementById("name").value,
+          to: "sauravdeshmukh5@gmail.com",
+          subject: document.getElementById("phone").value,
+          replyto: "ajayshirke137@gmail.com",
+          message: document.getElementById("comment").value,
+        };
+        var serviceID = "service_17z5uhq"; // Email Service ID
+        var templateID = "template_2phyek8"; // Email Template ID
+        emailjs
+          .send(serviceID, templateID, params)
+          .then((res) => {
+            alert("Success");
+          })
+          .catch((err) => console.log(err));
+      }
+        
+      </script> -->
+
+   
   </body>
 </html>
