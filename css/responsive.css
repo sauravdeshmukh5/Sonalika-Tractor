@@ -256,9 +256,9 @@
         padding: 15px 0px;
     }
     .navbar-light .navbar-toggler {
-        color: #fff;
-        border-color: #fff;
-        background: #fff;
+        color: #fff !important;
+        border-color: #fff !important;
+        background: #fff !important;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         color: #ffffff;
@@ -374,6 +374,10 @@
 }
 
 @media (max-width: 575px) {
+    .logoTitle{
+        font-size: larger;
+        letter-spacing: 0;
+    }
 
     .navbar {
         padding: 15px 0px;

@@ -210,6 +210,7 @@ button {
 }
 
 
+
 /* header section start */
 
 .header_section {
@@ -247,7 +248,7 @@ button {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #fe5b29;
+    color: #134C97;
 }
 
 
@@ -259,7 +260,7 @@ button {
 .call_text_main{
     width: 100%;
     float: left;
-    background-color: #fe5b29;
+    background-color: #134C97;
     height: auto;
     padding: 10px 0px;
 }
@@ -340,7 +341,7 @@ button {
     width: 100%;
     float: left;
     font-size: 18px;
-    background-color: #fe5b29;
+    background-color: #134C97;
     color: #fcf8f8;
     text-align: center;
     padding: 10px;
@@ -385,7 +386,7 @@ button {
     opacity: 1;
     font-size: 30px;
     color: #fcf8f8;
-    background-color: #fe5b29;
+    background-color: #134C97;
 }
 
 #banner_slider .carousel-control-next:focus,
@@ -450,7 +451,7 @@ button {
     float: left;
     font-size: 18px;
     color: #fcf8f8;
-    background-color: #fe5b29;
+    background-color: #134C97;
     border-radius: 3px;
     padding: 10px;
     text-align: center;
@@ -538,7 +539,7 @@ span.current {
     float: left;
     font-size: 18px;
     color: #fefefd;
-    background-color: #fe5b29;
+    background-color: #134C97;
     padding: 10px;
     text-align: center;
     text-transform: uppercase;
@@ -614,7 +615,7 @@ span.current {
     width: 100%;
     float: left;
     font-size: 18px;
-    color: #fe5b29;
+    color: #134C97;
     text-align: center;
     margin: 0px;
     font-weight: bold;
@@ -634,7 +635,7 @@ span.current {
     font-size: 16px;
     color: #fefefd;
     text-align: center;
-    background-color: #fe5b29;
+    background-color: #134C97;
     font-weight: bold;
     padding: 10px;
 }
@@ -845,7 +846,7 @@ span.current {
     width: 100%;
     margin: 0 auto;
     padding: 110px 20px 50px 20px;
-    background-color: #fe5b29;
+    background-color: #134C97;
     border-top-left-radius: 540px;
     border-top-right-radius: 540px;
     margin-top: 50px;
@@ -1009,7 +1010,7 @@ textarea#comment.massage-bt::placeholder {
 }
 
 .social_icon li a:hover {
-    background-color: #fe5b29;
+    background-color: #134C97;
     color: #ffffff;
 }
 
@@ -1045,7 +1046,7 @@ textarea#comment::placeholder {
     font-size: 16px;
     padding: 8px 0px;
     text-transform: uppercase;
-    background-color: #fe5b29;
+    background-color: #134C97;
     text-align: center;
     border-radius: 3px;
 }
@@ -1068,7 +1069,7 @@ textarea#comment::placeholder {
 }
 
 .location_text a:hover {
-    color: #fe5b29;
+    color: #134C97;
 }
 
 .padding_left_15 {
@@ -1104,7 +1105,7 @@ textarea#comment::placeholder {
 }
 
 .copyright_text a:hover {
-    color: #fe5b29;
+    color: #134C97;
 }
 
 
@@ -1125,6 +1126,15 @@ textarea#comment::placeholder {
   .map_section .map_container .map-responsive {
     height: 100%;
   }
+
+  /* Logo */
+  .logoTitle   {color: aliceblue;
+  font-weight: 900;
+  font-size: xx-large;
+  font-family: Outfit, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 0.2rem;}
 
 
   
